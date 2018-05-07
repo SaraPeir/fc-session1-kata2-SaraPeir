@@ -1,0 +1,22 @@
+{
+  "name": "fc-session1-kata2-sarapeir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraPeir/fc-session1-kata2-SaraPeir.git"
+  },
+  "author": "Sara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraPeir/fc-session1-kata2-SaraPeir/issues"
+  },
+  "homepage": "https://github.com/SaraPeir/fc-session1-kata2-SaraPeir#readme",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
+}
