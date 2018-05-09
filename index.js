@@ -1,11 +1,10 @@
-var word = 'hola';
-var wordLength = word.length;
-
 function repeatStringNumTimes(str, num) {
   return str.repeat(num);
 }
 
 function paddingLeft(word, totalLength, paddingElement){
+  var word;
+  var wordLength = word.length;
   var paddingLength = totalLength - wordLength;
   if(paddingLength <= 0){
   return word;

@@ -14,9 +14,14 @@ describe('paddingLeft', () => {
         expect(paddingLeft('hola', 6, 'x')).toBe('xxhola');
         return console.log(paddingLeft('hola', 6, 'x'));
         });
-        test('write hola and it returns xxxxhola', () => {
+        test('write hola and it returns xxxxxxhola', () => {
           expect(paddingLeft('hola', 10, 'x')).toBe('xxxxxxhola');
           return console.log(paddingLeft('hola', 10, 'x'));
           });
+          test('write maria and it returns xxxxxmaria', () => {
+            expect(paddingLeft('maria', 10, 'x')).toBe('xxxxxmaria');
+            return console.log(paddingLeft('maria', 10, 'x'));
+            });
+
 
 });
